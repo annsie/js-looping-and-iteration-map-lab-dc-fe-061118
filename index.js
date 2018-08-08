@@ -7,5 +7,5 @@ function lowerCaseDrivers(drivers){
 }
 function nameToAttributes(drivers) {
   splitName = driver.split('')
-  return {firstName: splitName [0], lastName: splitName[1]}
+  return {firstName: splitName[0], lastName: splitName[1]}
 }
