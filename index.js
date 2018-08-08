@@ -9,3 +9,7 @@ function nameToAttributes(drivers) {
   splitName = driver.split('')
   return {firstName: splitName[0], lastName: splitName[1]}
 }
+function attributestoPhrase(drivers) {
+  return drivers.map(function(driver))
+  return driver.name + 'is from ' + driver.hometown
+}
